@@ -8,7 +8,7 @@ You will build a working concept that can:
 - Read an intake record plus supporting documents
 - Normalize messy inputs into a consistent schema
 - Identify gaps, risks, and required follow ups
-- Route the case to the right next step, with a rationale
+- Route the case to the right step, with a rationale
 - Produce a clean summary that a real operator could act on
 
 No coding is required for the hackathon, but teams that want to implement can do so.
@@ -60,10 +60,20 @@ Start here before reviewing any case assets. The official track instructions are
 - [`challenge-docs/Hackathon Challenge - Research Track.docx`](challenge-docs/Hackathon%20Challenge%20-%20Research%20Track.docx)  
   Research track instructions, compliance triage scenarios, governance and vendor review expectations.
 
+## API connection test prompt
+
+- [`test-api-prompt.md`](test-api-prompt.md)  
+  A minimal system prompt used to verify the Blob Storage API connections work end to end.
+
+Use this when:
+- You just created or changed the API connections (`blob_list_blobs_container`, `blob_get_blob_contents`)
+- You are troubleshooting access, permissions, or unexpected empty results
+- You want to confirm the agent can list blobs and retrieve a known file (example uses `criceagenthackresearch` and `assets/research_case_index.csv`)
+
 ## Suggested workflow for teams
 
 1. Pick a track and read the matching challenge doc in `challenge-docs/`.
-2. Review the shared overview and challenge doc for that track.
+2. Review the case packets for that track.
 3. Define your target output schema and decision rules.
 4. Build an agent flow, then test it against all cases.
 5. Prepare a short demo plus an adoption plan aligned to outcomes.
