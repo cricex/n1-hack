@@ -155,3 +155,7 @@ The raw blob contents. For this hackathon, blobs are expected to be readable tex
 * **Make output format non negotiable.** One schema or template only, include an explicit error shape if it can’t comply.
 * **Sanity test every change.** Keep 5–10 “go to” prompts (plus 2 edge cases) and rerun them anytime you tweak prompts or code.
 * **Use an LLM to design the solution.** Upload or link the hack MD files, then have it propose the agents, tool connections, data flow, and a build plan.
+
+**AMC Example**
+
+![Agentic flow for AMCs](../media/amc_example_flow.png)
