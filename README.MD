@@ -1,6 +1,6 @@
 # Agentic AI Hackathon, Challenge Repo
 
-This repo contains the official challenge materials for a hands on hackathon focused on building agentic workflows with structured, realistic datasets. Teams will pick a track, ingest the provided case packets, then design an agent based solution that produces a clear triage output, a recommended path to action, and a short adoption plan.
+This repo contains the official challenge materials for a hands on hackathon focused on building agentic workflows with structured, realistic datasets. Teams will pick a track, ingest the provided [challenge-docs](challenge-docs/), then design an agent based solution that produces a clear triage output, a recommended path to action, and a short adoption plan.
 
 ## What you build
 
@@ -46,19 +46,19 @@ Typical decision themes include:
 
 ## Challenge docs
 
-Start here before reviewing any case assets. The official track instructions are in `challenge-docs/`.
+Start here. The challenge docs and official track instructions are in [challenge-docs](challenge-docs/).
 
-- [`challenge-docs/Hackathon Challenges - Shared Overview.docx`](challenge-docs/Hackathon%20Challenges%20-%20Shared%20Overview.docx)  
-  Shared context used across all tracks, including common assumptions, data access notes, and expectations for outputs.
+- [Shared overview](challenge-docs/)  
+  Shared context across all tracks, common assumptions, data access notes, and required outputs.
 
-- [`challenge-docs/Hackathon Challenge - AMC.docx`](challenge-docs/Hackathon%20Challenge%20-%20AMC.docx)  
-  AMC track instructions, study intake scenario details, required outputs, and evaluation criteria.
+- [AMC track](challenge-docs/Hackathon%20Challenge%20-%20AMC.md)  
+  AMC intake triage scenarios, required outputs, and evaluation criteria.
 
-- [`challenge-docs/Hackathon Challenge - EDU Track.docx`](challenge-docs/Hackathon%20Challenge%20-%20EDU%20Track.docx)  
-  EDU track instructions, student success case workflow, routing rules, and escalation expectations.
+- [EDU track](challenge-docs/Hackathon%20Challenge%20-%20EDU%20Track.md)  
+  Student success routing scenarios, rules, and escalation expectations.
 
-- [`challenge-docs/Hackathon Challenge - Research Track.docx`](challenge-docs/Hackathon%20Challenge%20-%20Research%20Track.docx)  
-  Research track instructions, compliance triage scenarios, governance and vendor review expectations.
+- [Research track](challenge-docs/Hackathon%20Challenge%20-%20Research%20Track.md)  
+  Research intake and compliance triage scenarios, governance, and vendor review expectations.
 
 ## API connection test prompt
 
@@ -70,10 +70,11 @@ Use this when:
 - You are troubleshooting access, permissions, or unexpected empty results
 - You want to confirm the agent can list blobs and retrieve a known file (example uses `criceagenthackresearch` and `assets/research_case_index.csv`)
 
+
 ## Suggested workflow for teams
 
-1. Pick a track and read the matching challenge doc in `challenge-docs/`.
-2. Review the case packets for that track.
+1. Pick a track and read the matching [challenge-docs](challenge-docs/).
+2. Follow the doc’s instructions to locate the supporting assets for each case.
 3. Define your target output schema and decision rules.
 4. Build an agent flow, then test it against all cases.
 5. Prepare a short demo plus an adoption plan aligned to outcomes.
