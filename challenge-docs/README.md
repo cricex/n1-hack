@@ -148,3 +148,10 @@ The raw blob contents. For this hackathon, blobs are expected to be readable tex
 1. Use blob\_list\_blobs\_container to discover files.
 1. Select the files needed for your workflow.
 1. Call this API for each selected blob to load its contents into the agent’s context.
+
+**Pro tips:**
+
+* **Don’t hand write system prompts.** Use an LLM to generate them from a tight spec (role, goals, do nots, output format), then edit.
+* **Make output format non negotiable.** One schema or template only, include an explicit error shape if it can’t comply.
+* **Sanity test every change.** Keep 5–10 “go to” prompts (plus 2 edge cases) and rerun them anytime you tweak prompts or code.
+* **Use an LLM to design the solution.** Upload or link the hack MD files, then have it propose the agents, tool connections, data flow, and a build plan.
