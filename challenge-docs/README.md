@@ -1,0 +1,150 @@
+﻿# Hackathon Challenges | Shared Rules and Constraints #
+
+**Applies to all tracks: AMC, Research, EDU**
+
+**1. Context**
+
+You are building inside an Agentic Governance Platform that turns incomplete intake requests into a structured, reviewable coordination bundle.
+
+This is an evaluation and coordination exercise, not a deployment exercise.
+
+**2. Required deliverable**
+
+Each submission must generate exactly one Markdown bundle file for the selected track.
+
+- AMC: study\_startup\_bundle.md
+- Research: research\_triage\_bundle.md
+- EDU: student\_success\_bundle.md
+
+If teams produce additional artifacts for their own workflow, that is allowed, but it is not required and will not be judged.
+
+**3. Inputs you can assume**
+
+Each track provides a structured intake file in CSV format plus additional attachments.
+
+- The CSV is the source of truth for intake fields
+- Additional attachments may add context, but may be missing, partial, or contradictory
+- Your workflow should tolerate missing fields and still generate a useful bundle
+
+**4. Platform constraints**
+
+- Output must be fully copy and paste friendly
+- Assume incomplete inputs, default to conservative routing and recommendations
+- Do not claim approvals, determinations, or compliance status, you may only recommend routing, identify likely triggers, and propose next steps
+- No external network calls are required for judging, use only the provided intake data and additional attachments
+- Prefer structured sections and checklists over long narrative
+- Track evidence and assumptions explicitly, do not bury them
+
+**5. Multi agent requirement**
+
+You must implement this as a multi agent workflow.
+
+**Minimum constraints**
+
+- Use at least 3 agents
+- Use at least 2 agent types
+
+**Agent types**
+
+You may design any agents you want, but your workflow must include both types below.
+
+**A. General purpose utility agents**
+
+Reusable across domains, focused on structured functions.
+
+Examples, illustrative only:
+
+- Intake normalizer, validates and canonicalizes fields, detects contradictions
+- Evidence extractor, pulls cited facts from CSV and attachments into an evidence list
+- Missing info generator, produces prioritized clarifying questions
+- Risk register builder, turns findings into a structured risk and mitigation list
+- Task planner, creates a sequenced checklist with owners and dependencies
+- Red flag detector, highlights escalation triggers based on patterns and keywords
+- Bundle assembler, enforces headings, ordering, and formatting rules for the final Markdown
+
+**B. Domain specific agents**
+
+Specialized reasoning and decision making for the selected track.
+
+Examples, illustrative only:
+
+- AMC domain agent: clinical study startup coordination and readiness decisioning
+- Research domain agent: compliance trigger mapping and routing logic
+- EDU domain agent: student success intervention planning with privacy and fairness guardrails
+
+**6. Judging focus**
+
+Judges will look for:
+
+- Clear evidence of distinct agent outputs combined into one final Markdown bundle
+- Utility agent outputs reused across sections, and ideally reusable across tracks
+- A domain specific agent producing the core track specific decisions and guidance
+- Conservative handling of unknowns, with explicit assumptions and clarifying questions
+- A bundle that a real reviewer could act on immediately
+
+**7. Recommended bundle format**
+
+Your final Markdown bundle should be structured with:
+
+- A clear status and rationale section
+- A prioritized list of missing info and questions
+- A risk and mitigation section
+- A routing and next steps section with owners
+- An evidence and assumptions section
+
+You may choose your own headings, but keep the structure consistent and easy to scan.
+
+**8. API connections (Blob Storage)**
+
+These API connections let the agents interact with Azure Blob Storage using a dynamic endpoint, so the same connection works across tracks and storage accounts by passing parameters.
+
+**1) blob\_list\_blobs\_container**
+
+**What it does**\
+Lists all blobs in a specific container. This is typically used to discover which files exist for a case (or in assets/) before deciding what to load.
+
+**How it works**
+
+- **Method:** GET
+- **URL template:**\
+  https://{{accountname}}.blob.core.windows.net/{{container}}?restype=container&comp=list
+
+**Parameters**
+
+- accountname = storage account name (example: criceagenthackmc)
+- container = container name (example: assets, study-001, student-003, proj-004)
+
+**What it returns**\
+The raw Azure “List Blobs” response, which includes blob names you can pass to the blob content call.
+
+**Typical usage pattern**
+
+1. Call this first to list blobs in assets/ or the case container.
+1. Parse the returned blob names.
+1. Call blob\_get\_blob\_contents for the specific files you need.
+
+**2) blob\_get\_blob\_contents**
+
+**What it does**\
+Fetches the contents of a single blob as text. This is used to load intake CSVs, notes, and supporting documents for a case.
+
+**How it works**
+
+- **Method:** GET
+- **URL template:**\
+  https://{{accountname}}.blob.core.windows.net/{{container}}/{{blob\_name}}
+
+**Parameters**
+
+- accountname = storage account name
+- container = container name
+- blob\_name = exact blob path/name from the list call (example: study\_intake.csv, abstract.txt, signal\_context.json)
+
+**What it returns**\
+The raw blob contents. For this hackathon, blobs are expected to be readable text formats like .txt, .csv, or .json.
+
+**Typical usage pattern**
+
+1. Use blob\_list\_blobs\_container to discover files.
+1. Select the files needed for your workflow.
+1. Call this API for each selected blob to load its contents into the agent’s context.
