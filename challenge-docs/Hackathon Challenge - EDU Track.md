@@ -118,13 +118,13 @@ This track simulates a student success intervention workflow that aggregates mul
 
 **Primary intake file**
 
-- assets/student\_success\_intake.csv
-- Link: https://criceagenthackedu.blob.core.windows.net/assets/student\_success\_intake.csv
+- assets/student_success_intake.csv
+- Link: [https://criceagenthackedu.blob.core.windows.net/assets/student\_success\_intake.csv](https://criceagenthackedu.blob.core.windows.net/assets/student_success_intake.csv)
 
 **Case containers**
 
 - Pattern: student-###/
-- Example: https://criceagenthackedu.blob.core.windows.net/student-001/
+- Example: https://criceagenthackedu.blob.core.windows.net/student-001
 
 **What’s inside each student container**\
 A mix of advising notes, instructor notes, student preferences, LMS activity summaries, and, where applicable, wellbeing or accessibility related notes. Some details are intentionally incomplete or constrained by allowed data use, your agent should surface gaps and recommend follow ups.
