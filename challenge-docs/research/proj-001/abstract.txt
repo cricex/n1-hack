@@ -1,0 +1,4 @@
+Project Abstract
+We will evaluate whether post-discharge home monitoring reduces 30-day readmissions for heart failure patients.
+Data sources include EHR vitals/meds, discharge summaries, and wearable blood pressure + weight readings.
+Sites: University Hospital and Partner Clinic Network.

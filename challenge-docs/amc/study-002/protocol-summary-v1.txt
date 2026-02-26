@@ -1,0 +1,19 @@
+Study title
+Multisite Prospective Study of Remote Blood Pressure Monitoring in Pregnancy
+
+Study type
+prospective
+
+Purpose
+Provide a concise overview of the study goals and what will be evaluated. This summary is intentionally brief and may omit details that appear in other files.
+
+High level design
+- Participating sites: multi_site
+- Data sources: EHR, surveys, wearables
+- Data types: PHI, PII, wearables
+- Requested tools: mobile app for patient reported outcomes, analytics workspace, LLM summarization for coordinator notes
+
+Open questions
+- Confirm consent approach, consent, waiver, or alteration
+- Confirm retention period for extracts, prompts, and outputs
+- Confirm whether any data leaves institutional boundary, including for vendor hosted services

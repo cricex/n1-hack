@@ -1,0 +1,5 @@
+DUA Email Excerpt (State Registry)
+- Data is a Limited Dataset under HIPAA.
+- Recipient must not attempt re-identification.
+- Sharing with subcontractors is prohibited without written approval.
+- Data retention: 24 months, then certify destruction.

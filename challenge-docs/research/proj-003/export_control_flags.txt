@@ -1,0 +1,5 @@
+Potential Flags (informal)
+- Collaboration with EU institution.
+- Use of specialized encryption library in pipeline (for secure enclave compute).
+- Some compute resources may be outside the US depending on cloud region selection.
+Recommendation requested: should we route to export control / sanctions screening?

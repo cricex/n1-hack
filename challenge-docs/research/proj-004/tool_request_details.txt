@@ -1,0 +1,4 @@
+Tool Request
+Research team wants to use "TranscribeAI" (SaaS) to transcribe and summarize qualitative interviews.
+Interviews are with staff about workflow pain points; may include names, job titles, and incident descriptions.
+Team requests fast approval and proposes uploading audio files directly to the vendor web app.

@@ -1,0 +1,14 @@
+Principal Investigator CV, synthetic
+
+Name
+Dr. A. Rivera
+
+Summary
+Clinician researcher with experience in clinical studies relevant to the study area.
+
+Selected experience
+- Prior involvement in multisite studies: Yes
+- Data intensive research exposure: Yes
+
+Notes
+This CV is synthetic and provided for hackathon triage exercises only.

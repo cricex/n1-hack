@@ -1,0 +1,19 @@
+Study title
+Interventional Trial of AI Guided Sepsis Alert Review Workflow
+
+Study type
+interventional
+
+Purpose
+Provide a concise overview of the study goals and what will be evaluated. This summary is intentionally brief and may omit details that appear in other files.
+
+High level design
+- Participating sites: single_site
+- Data sources: EHR, labs
+- Data types: PHI, PII
+- Requested tools: clinical decision support prototype, audit logging pipeline, LLM for explanation drafts for clinicians
+
+Open questions
+- Confirm consent approach, consent, waiver, or alteration
+- Confirm retention period for extracts, prompts, and outputs
+- Confirm whether any data leaves institutional boundary, including for vendor hosted services

@@ -1,0 +1,5 @@
+Data Use and Minimization Quick Guide (Internal)
+- Use the minimum data necessary to coordinate a support action.
+- Do not infer causes (e.g., disability, mental health, financial status) from proxy signals.
+- Prefer low-risk, opt-in interventions first.
+- Escalation actions require human review and appropriate role-based permissions.

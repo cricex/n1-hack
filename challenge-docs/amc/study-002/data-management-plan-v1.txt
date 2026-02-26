@@ -1,0 +1,21 @@
+Data management plan, v1
+
+Data collection and sources
+- Sources: EHR, surveys, wearables
+- Data types: PHI, PII, wearables
+
+Storage and access
+- Storage location: internal workspace, to be confirmed
+- Access model: least privilege for study staff, to be confirmed
+
+Retention
+- Retention period: not specified in intake, requires clarification
+- Disposal: secure deletion and access revocation at study end, to be confirmed
+
+Logging
+- Recommend minimal operational logs: timestamps, job success or failure, and non sensitive identifiers
+- Avoid storing raw prompts or outputs containing PHI unless explicitly required and approved
+
+Sharing
+- Sharing indicated: external
+- If external sharing occurs, define transfer method, encryption, recipient restrictions, and agreement requirements

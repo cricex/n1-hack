@@ -1,0 +1,16 @@
+Vendor and data flow overview, v1
+
+External vendors
+None indicated
+
+Proposed data movement summary
+- Data sources: PACS, EHR
+- Data types: PHI, imaging
+- Data sharing: internal
+
+Key questions for review
+- Does any PHI leave institutional boundary
+- Where does inference occur for any AI capability
+- What subcontractors have access to data
+- What are retention and deletion commitments
+- What security artifacts are available, SOC2, pen test summary, DPA, BAA where applicable

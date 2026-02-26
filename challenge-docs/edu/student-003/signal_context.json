@@ -1,0 +1,10 @@
+{
+  "escalation_triggers": [
+    "Possible self-harm language",
+    "Repeated missed appointments with distress indicators"
+  ],
+  "do_not_infer": [
+    "Mental health diagnosis",
+    "Intent without further assessment"
+  ]
+}

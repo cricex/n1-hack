@@ -1,0 +1,12 @@
+Cloud security certificate, synthetic
+
+Vendor
+WearableCo Cloud Platform; AppDev Studio
+
+Statement
+This is a placeholder representing a vendor provided security certificate or attestation.
+It is not a real certificate and should not be treated as evidence of compliance.
+
+Open items
+- Obtain actual security documentation under appropriate terms
+- Confirm hosting boundary, retention, and subcontractor access

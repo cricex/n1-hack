@@ -1,0 +1,4 @@
+Analysis Plan (high level)
+- Descriptive statistics and regression modeling.
+- No linkage to internal EHR planned.
+- Results will be published in aggregate form.

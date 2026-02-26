@@ -1,0 +1,14 @@
+Principal Investigator CV, synthetic
+
+Name
+Dr. Priya Nair
+
+Summary
+Clinician researcher with experience in clinical studies relevant to the study area.
+
+Selected experience
+- Prior involvement in multisite studies: Some experience
+- Data intensive research exposure: Yes
+
+Notes
+This CV is synthetic and provided for hackathon triage exercises only.

@@ -1,0 +1,3 @@
+Consent Notes (informal)
+Consent will mention wearable collection and data sharing with WearableCo for monitoring.
+We have not drafted cross-site consent language yet.

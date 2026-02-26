@@ -1,0 +1,4 @@
+Cross-border Data Flow (draft)
+- Raw reads generated locally, uploaded to cloud bucket for pipeline processing.
+- EU partner requests access to raw reads and variant calls for independent validation.
+- Unclear whether data will be transferred to EU systems or processed in a shared environment.

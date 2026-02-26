@@ -1,0 +1,21 @@
+Consent draft notes, v1
+
+This is a placeholder draft to support intake triage. It is not approved language.
+
+Participant data
+- Data collected: EHR, surveys, wearables
+- Data types: PHI, PII, wearables
+
+Third parties
+- External vendors involved: WearableCo Cloud Platform; AppDev Studio
+
+Topics to include in final consent
+- What data is collected, and by which systems
+- Where the data is stored and processed
+- Whether data is shared across sites or with vendors
+- Whether data may be used for secondary research
+- How participants can withdraw, and what happens to prior collected data
+
+Open questions
+- Cross border processing, if any
+- Whether vendor processing is part of the research record

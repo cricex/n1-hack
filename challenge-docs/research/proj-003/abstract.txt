@@ -1,0 +1,4 @@
+Project Abstract
+We will sequence tumor samples to identify biomarkers associated with therapy response.
+Data includes raw genomic reads and annotated variant calls.
+Collaboration includes an EU-based university lab that will run a portion of the bioinformatics pipeline.

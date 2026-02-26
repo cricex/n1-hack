@@ -1,0 +1,15 @@
+Budget worksheet, v1
+
+This is a rough, synthetic budget outline intended for hackathon triage only.
+
+Major cost categories
+- Study coordinator effort: TBD hours
+- Data extraction and analyst time: TBD hours
+- Tooling costs: analytics workspace, storage, and any model usage
+- Vendor costs: WearableCo Cloud Platform; AppDev Studio
+- Compliance and review overhead: IRB prep, security review if tools and vendors are involved
+
+Open questions
+- Who pays for vendor services, sponsor or institution
+- Whether tool usage involves metered compute or inference costs
+- Whether security assessments introduce additional cost or timeline impacts

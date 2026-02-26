@@ -1,0 +1,5 @@
+Vendor Security FAQ (TranscribeAI)
+- Stores files for 30 days by default, configurable retention.
+- Uses third-party speech models; subprocessor list available upon request.
+- Offers SSO (SAML) on enterprise plan.
+- States it "does not train models on customer data" unless opted in.

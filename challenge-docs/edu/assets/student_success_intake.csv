@@ -1,0 +1,13 @@
+student_identifier,term,signal_type,signal_value,signal_date,signal_source,allowed_data_use,requesting_office,urgency_hint,contact_info,notes_free_text
+student-001,2026SP,grade_drop,MATH101 quiz avg down 28 pts,2026-01-15,Instructor,academic_support_only,Advising,medium,advisor_jlee@univ.edu,Commuter + working 30+ hrs/week
+student-001,2026SP,lms_inactivity,No LMS login for MATH101 9 days,2026-01-16,LMS,academic_support_only,Advising,medium,advisor_jlee@univ.edu,
+student-001,2026SP,missed_appointment,No-show advising appt,2026-01-10,Advising CRM,academic_support_only,Advising,medium,advisor_jlee@univ.edu,
+student-002,2026SP,financial_hold_risk,Balance due; hold in 10 days,2026-01-18,Student Account Services,unknown,Financial Aid,high,fa_case_mgr@univ.edu,FAFSA verification missing
+student-002,2026SP,missed_appointment,No-show FA appointment,2026-01-19,Financial Aid CRM,unknown,Financial Aid,high,fa_case_mgr@univ.edu,
+student-002,2026SP,student_message,"""May have to stop out""",2026-01-20,Email,unknown,Advising,high,advisor_mpatel@univ.edu,
+student-003,2026SP,wellbeing_concern,RA concern report filed,2026-01-22,Residence Life,escalation_protocol_only,Residence Life,urgent,reslife_duty@univ.edu,Contains ambiguous self-harm language
+student-003,2026SP,missed_appointment,Two missed advising appts (6 mo),2025-12-05,Advising CRM,escalation_protocol_only,Advising,unknown,advisor_snguyen@univ.edu,
+student-003,2026SP,grade_issue,ENG102 midterm 58,2025-11-02,Instructor,escalation_protocol_only,Advising,unknown,advisor_snguyen@univ.edu,
+student-004,2026SP,accessibility_request,Accommodation renewal pending,2026-01-10,Accessibility Services,need_to_know,Accessibility Services,low,access_case@univ.edu,
+student-004,2026SP,lms_inactivity,No LMS login 14 days for HIST210,2026-01-24,LMS,need_to_know,Advising,medium,advisor_kbrown@univ.edu,May be offline work; caution
+student-004,2026SP,instructor_request,Instructor asks about accommodation process,2026-01-21,Instructor,need_to_know,Accessibility Services,low,access_case@univ.edu,

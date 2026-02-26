@@ -1,0 +1,5 @@
+Vendor Snippet (WearableCo)
+- Cloud-hosted dashboard for clinicians and research teams.
+- Data encrypted in transit and at rest.
+- Provides audit logging and role-based access.
+- Standard contract includes subprocessor list; BAA availability is "case by case".

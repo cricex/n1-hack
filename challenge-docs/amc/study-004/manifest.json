@@ -1,0 +1,20 @@
+{
+  "study_id": "study-004",
+  "study_title": "Retrospective De Identified Oncology Cohort Characterization Using Public Foundation Models",
+  "container": "accountname/study-004/",
+  "intake_source": "accountname/assets/study_intake.csv",
+  "files": [
+    "budget-worksheet-v1.txt",
+    "consent-draft-v1.txt",
+    "data-management-plan-v1.txt",
+    "manifest.json",
+    "pi-cv-samuel-ortiz.txt",
+    "privacy-worksheet-v1.txt",
+    "protocol-summary-v1.txt",
+    "vendor-dataflow-overview-v1.txt"
+  ],
+  "notes": [
+    "Synthetic hackathon assets, non production.",
+    "Some content intentionally includes open questions to test conservative triage."
+  ]
+}

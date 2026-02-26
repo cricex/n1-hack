@@ -1,0 +1,11 @@
+{
+  "risk_notes": [
+    "Financial holds can disproportionately impact first-gen students; avoid assumptions.",
+    "Confirm allowed data use before cross-office sharing of financial status."
+  ],
+  "recommended_minimum_data": [
+    "Hold deadline date",
+    "Missing document list",
+    "Student preferred contact method"
+  ]
+}

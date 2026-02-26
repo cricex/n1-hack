@@ -1,0 +1,5 @@
+case_id,theme,files
+student-001,Academic risk with confounders (commuter; job hours); medium urgency,advising_notes.txt;instructor_note_math101.txt;signal_context.json;student_preference.txt
+student-002,Financial risk (aid verification); high urgency; allowed use unclear,advising_note.txt;financial_aid_note.txt;policy_snippet_financial_support.txt;signal_context.json
+student-003,Wellbeing concern from RA; urgent hint but incomplete evidence,advising_history.txt;counseling_center_policy_excerpt.txt;residence_life_report.txt;signal_context.json
+student-004,Accessibility + engagement; low urgency but needs constraint checks (FERPA/accommodations),accessibility_services_note.txt;instructor_note_hist210.txt;lms_activity_summary.txt;signal_context.json

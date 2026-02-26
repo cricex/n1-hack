@@ -1,0 +1,3 @@
+Data Handling Preferences (researcher email)
+We can de-identify transcripts after transcription, but we need accurate names initially for coding.
+We prefer to store final transcripts in SharePoint and limit access to the coding team.

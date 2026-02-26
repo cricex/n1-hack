@@ -1,0 +1,19 @@
+Study title
+Retrospective De Identified Oncology Cohort Characterization Using Public Foundation Models
+
+Study type
+retrospective
+
+Purpose
+Provide a concise overview of the study goals and what will be evaluated. This summary is intentionally brief and may omit details that appear in other files.
+
+High level design
+- Participating sites: single_site
+- Data sources: EHR, registries
+- Data types: de_identified
+- Requested tools: analytics workspace, text embedding for cohort phenotyping
+
+Open questions
+- Confirm consent approach, consent, waiver, or alteration
+- Confirm retention period for extracts, prompts, and outputs
+- Confirm whether any data leaves institutional boundary, including for vendor hosted services

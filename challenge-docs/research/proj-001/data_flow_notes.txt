@@ -1,0 +1,6 @@
+Data Flow Notes (draft)
+1) Identify eligible patients in EHR.
+2) Export limited set to REDCap for recruitment workflow.
+3) Wearable vendor app collects BP/weight and sends to vendor cloud.
+4) Study team downloads weekly CSV from vendor portal and merges with EHR extracts.
+Open questions: retention period, vendor logging, and whether vendor will store PHI.

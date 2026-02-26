@@ -1,0 +1,4 @@
+Limited Dataset Handling (Excerpt)
+- Limited datasets still contain identifiers and require a DUA.
+- Minimum necessary principle applies; document access and retention.
+- Verify whether data will be linked back to identity and where the key is stored.

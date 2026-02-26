@@ -1,0 +1,60 @@
+{
+  "study-001": {
+    "study_title": "AI Assisted Triage for Radiology Incidental Findings Follow Up",
+    "container": "accountname/study-001/",
+    "files": [
+      "budget-worksheet-v1.txt",
+      "consent-draft-v1.txt",
+      "data-management-plan-v1.txt",
+      "manifest.json",
+      "pi-cv-lina-chen.txt",
+      "privacy-worksheet-v1.txt",
+      "protocol-summary-v1.txt",
+      "vendor-dataflow-overview-v1.txt"
+    ]
+  },
+  "study-002": {
+    "study_title": "Multisite Prospective Study of Remote Blood Pressure Monitoring in Pregnancy",
+    "container": "accountname/study-002/",
+    "files": [
+      "budget-worksheet-v1.txt",
+      "consent-draft-v1.txt",
+      "data-management-plan-v1.txt",
+      "gcp-certificate-wearableco.txt",
+      "manifest.json",
+      "pi-cv-a-rivera.txt",
+      "privacy-worksheet-v1.txt",
+      "protocol-summary-v1.txt",
+      "vendor-dataflow-overview-v1.txt"
+    ]
+  },
+  "study-003": {
+    "study_title": "Interventional Trial of AI Guided Sepsis Alert Review Workflow",
+    "container": "accountname/study-003/",
+    "files": [
+      "budget-worksheet-v1.txt",
+      "cloud-certificate-medalertai.txt",
+      "consent-draft-v1.txt",
+      "data-management-plan-v1.txt",
+      "manifest.json",
+      "pi-cv-priya-nair.txt",
+      "privacy-worksheet-v1.txt",
+      "protocol-summary-v1.txt",
+      "vendor-dataflow-overview-v1.txt"
+    ]
+  },
+  "study-004": {
+    "study_title": "Retrospective De Identified Oncology Cohort Characterization Using Public Foundation Models",
+    "container": "accountname/study-004/",
+    "files": [
+      "budget-worksheet-v1.txt",
+      "consent-draft-v1.txt",
+      "data-management-plan-v1.txt",
+      "manifest.json",
+      "pi-cv-samuel-ortiz.txt",
+      "privacy-worksheet-v1.txt",
+      "protocol-summary-v1.txt",
+      "vendor-dataflow-overview-v1.txt"
+    ]
+  }
+}

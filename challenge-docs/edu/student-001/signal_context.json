@@ -1,0 +1,10 @@
+{
+  "known_constraints": [
+    "Do not send automated student messages without staff review.",
+    "Use approved outreach channel only."
+  ],
+  "potential_confounders": [
+    "Work hours",
+    "Commuting time"
+  ]
+}

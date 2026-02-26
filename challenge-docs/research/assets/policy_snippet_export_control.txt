@@ -1,0 +1,4 @@
+Export Control / Sanctions Screening (Excerpt)
+- International collaborations may require screening depending on country, institution, and project area.
+- Some technologies and datasets (e.g., certain genomics pipelines, encryption, dual-use topics) can increase screening needs.
+- Triage should recommend routing to export control when cross-border elements exist or are unclear.

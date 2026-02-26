@@ -1,0 +1,5 @@
+project_id,theme,files
+proj-001,New human-subjects study; PHI from EHR + wearable vendor; multi-site; security + IRB likely,abstract.txt;consent_notes.txt;data_flow_notes.txt;irb_reference_if_any.txt;vendor_snippet.txt
+proj-002,Data access request for limited dataset; external DUA; no new recruitment; standard urgency,abstract.txt;analysis_plan.txt;data_security_note.txt;dua_email_excerpt.txt
+proj-003,Genomic + biospecimen collaboration; cross-border (EU); potential export control screening; urgent timeline,abstract.txt;biospecimen_governance_notes.txt;cross_border_data_flow.txt;export_control_flags.txt
+proj-004,Tool request: AI transcription + summarization tool for research interviews; PII likely; vendor SaaS; needs security/privacy routing,data_handling_preferences.txt;irb_reference_if_any.txt;tool_request_details.txt;vendor_security_faq.txt

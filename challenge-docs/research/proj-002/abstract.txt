@@ -1,0 +1,4 @@
+Project Summary
+Retrospective outcomes analysis using a limited dataset from State Health Registry.
+No direct identifiers are provided, but dates and ZIP3 are included.
+Goal: assess regional disparities in follow-up care.

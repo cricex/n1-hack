@@ -1,0 +1,4 @@
+Biospecimen Governance Notes
+- Samples stored in the biorepository under existing consent for cancer research.
+- Proposed shipment of aliquots to external lab for sequencing validation.
+- Need to confirm whether consent permits international shipment.

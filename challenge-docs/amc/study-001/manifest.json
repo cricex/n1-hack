@@ -1,0 +1,20 @@
+{
+  "study_id": "study-001",
+  "study_title": "AI Assisted Triage for Radiology Incidental Findings Follow Up",
+  "container": "accountname/study-001/",
+  "intake_source": "accountname/assets/study_intake.csv",
+  "files": [
+    "budget-worksheet-v1.txt",
+    "consent-draft-v1.txt",
+    "data-management-plan-v1.txt",
+    "manifest.json",
+    "pi-cv-lina-chen.txt",
+    "privacy-worksheet-v1.txt",
+    "protocol-summary-v1.txt",
+    "vendor-dataflow-overview-v1.txt"
+  ],
+  "notes": [
+    "Synthetic hackathon assets, non production.",
+    "Some content intentionally includes open questions to test conservative triage."
+  ]
+}

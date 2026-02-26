@@ -1,0 +1,10 @@
+{
+  "constraints": [
+    "Accommodation details should only be shared with staff who need-to-know.",
+    "Avoid routing to offices that do not have permission to view disability-related data."
+  ],
+  "low_risk_interventions": [
+    "Confirm accommodation notification sent",
+    "Offer tutoring study plan without referencing accommodations"
+  ]
+}

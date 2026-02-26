@@ -1,0 +1,3 @@
+Data Security Note (draft)
+Team proposes storing the dataset in an institutional cloud workspace.
+Unclear whether that workspace is approved for limited datasets and whether access is logged.

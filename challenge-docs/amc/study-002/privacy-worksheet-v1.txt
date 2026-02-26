@@ -1,0 +1,19 @@
+Privacy worksheet, v1
+
+Data classification
+- Data types indicated: PHI, PII, wearables
+- Data sharing indicated: external
+- Participating sites: multi_site
+
+Where sensitive data could enter
+- Source systems: EHR, surveys, wearables
+- Free text attachments may contain PHI unintentionally
+
+Minimum privacy questions to resolve
+- Will prompts or model inputs include PHI, or will PHI be excluded
+- Will prompts or outputs be stored, and for how long
+- Who has access to outputs and logs, and how is access audited
+- Is there any secondary use beyond the stated study purpose
+
+Notes
+This worksheet is not a determination. It is a triage artifact to drive follow up questions.
