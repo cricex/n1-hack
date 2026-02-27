@@ -1,6 +1,6 @@
 # Agentic AI Hackathon, Challenge Repo
 
-This repo contains the official challenge materials for a hands on hackathon focused on building agentic workflows with structured, realistic datasets. Teams will pick a track, ingest the provided [challenge-docs](challenge-docs/), then design an agent based solution that produces a clear triage output, a recommended path to action, and a short adoption plan.
+This repo contains the official challenge materials for a hands on hackathon focused on building agentic workflows with structured, realistic datasets. Teams will pick a track, follow Stages 1–3 in the track doc, then design an agent based solution that produces a clear triage output, a recommended path to action, and a short adoption plan.
 
 ## What you build
 
@@ -16,6 +16,8 @@ No coding is required for the hackathon, but teams that want to implement can do
 ## Tracks
 
 Each track includes multiple cases and a diverse mix of documents per case. All documents are provided in non binary formats such as txt, csv, and json.
+
+Case packets vary by design, do not assume every case has the same files or completeness.
 
 ### AMC Track, Academic Medical Center intake triage
 Designed for regulated clinical and research adjacent workflows.
@@ -48,8 +50,8 @@ Typical decision themes include:
 
 Start here. The challenge docs and official track instructions are in [challenge-docs](challenge-docs/).
 
-- [Shared overview](challenge-docs/)  
-  Shared context across all tracks, common assumptions, data access notes, and required outputs.
+- [Shared overview](challenge-docs/README.md)  
+  Shared rules, constraints, judging focus, and API tool definitions.
 
 - [AMC track](challenge-docs/AMC%20Track.md)  
   AMC intake triage scenarios, required outputs, and evaluation criteria.
@@ -60,7 +62,7 @@ Start here. The challenge docs and official track instructions are in [challenge
 - [Research track](challenge-docs/Research%20Track.md)  
   Research intake and compliance triage scenarios, governance, and vendor review expectations.
 
-## API connection test prompt
+## Optional: API connectivity smoke test
 
 - [`test-api-prompt.md`](test-api-prompt.md)  
   A minimal system prompt used to verify the Blob Storage API connections work end to end.
@@ -70,13 +72,12 @@ Use this when:
 - You are troubleshooting access, permissions, or unexpected empty results
 - You want to confirm the agent can list blobs and retrieve a known file (example uses `criceagenthackresearch` and `assets/research_case_index.csv`)
 
-
 ## Suggested workflow for teams
 
-1. Pick a track and read the matching [challenge-docs](challenge-docs/).
-2. Follow the doc’s instructions to locate the supporting assets for each case.
-3. Define your target output schema and decision rules.
-4. Build an agent flow, then test it against all cases.
+1. Pick a track and read the matching track doc in `challenge-docs/`.
+2. Complete Stages 1–3 in that track doc (tool access → full case packet → case summary contract).
+3. Use the track’s case index CSV in `assets/` to enumerate case IDs and locate the correct case container and files.
+4. Expand into the full bundle requirements (A–F) and run across all cases.
 5. Prepare a short demo plus an adoption plan aligned to outcomes.
 
 ## Output expectations
