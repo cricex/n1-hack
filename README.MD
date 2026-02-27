@@ -51,13 +51,13 @@ Start here. The challenge docs and official track instructions are in [challenge
 - [Shared overview](challenge-docs/)  
   Shared context across all tracks, common assumptions, data access notes, and required outputs.
 
-- [AMC track](challenge-docs/Hackathon%20Challenge%20-%20AMC.md)  
+- [AMC track](challenge-docs/AMC%20Track.md)  
   AMC intake triage scenarios, required outputs, and evaluation criteria.
 
-- [EDU track](challenge-docs/Hackathon%20Challenge%20-%20EDU%20Track.md)  
+- [EDU track](challenge-docs/EDU%20Track.md)  
   Student success routing scenarios, rules, and escalation expectations.
 
-- [Research track](challenge-docs/Hackathon%20Challenge%20-%20Research%20Track.md)  
+- [Research track](challenge-docs/Research%20Track.md)  
   Research intake and compliance triage scenarios, governance, and vendor review expectations.
 
 ## API connection test prompt
